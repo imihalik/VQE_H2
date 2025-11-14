@@ -107,7 +107,7 @@ def energy(energy_min, angles, y):
         energy_min.append(res[1])
         angles.append(list(res[0]))
     
-        values.clear()
+        values[:] == [] # clear
     
     return 
 
